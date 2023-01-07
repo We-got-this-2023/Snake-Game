@@ -19,3 +19,15 @@ body {
 	max-height: 100%;
 	aspect-ratio: 4/3;
 }
+
+.popup {
+	display: none;
+	position: fixed;
+
+	justify-content: center;
+	align-items: center;
+}
+
+.visible {
+	display: flex !important;
+}
